@@ -1,0 +1,160 @@
+{"intents": [
+  {"tag": "greeting",
+    "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Hey", "greetings"],
+    "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+    "context_set": ""
+  },
+  {"tag": "goodbye",
+    "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye", "cao", "see ya"],
+    "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+    "context_set": ""
+  },
+  {"tag": "programming",
+    "patterns": ["What is progamming?", "What is coding?", "Tell me about programming", "Tell me about coding", "What is software development?"],
+    "responses": ["Programming, coding or software development, means writing computer code to automate tasks."],
+    "context_set": ""
+  },
+  {"tag": "resource",
+    "patterns": ["Where can I learn to code?", "Best way to learn to code", "How can I learn programming", "Good programming resources", "Can you recommend good coding resources?"],
+    "responses": ["Check out the NeuralNine YouTube channel and The Python Bible series (7 in 1)."],
+    "context_set": ""
+  },
+  {"tag": "stocks",
+    "patterns": ["What are my stocks?", "Which stocks do I own?", "Show my stock portfolio"],
+    "responses": ["Here are your stocks!"],
+    "context_set": ""
+  },
+  {
+      "tag": "weather",
+      "patterns": ["What's the weather like today?", "Tell me the weather forecast", "Is it going to rain?", "Weather update"],
+      "responses": ["The weather is sunny today!", "Expect some rain later.", "It's going to be a chilly day."],
+      "context_set": ""
+    },
+    {
+      "tag": "music",
+      "patterns": ["Play some music", "Recommend a song", "What's your favorite music genre?", "Music suggestions"],
+      "responses": ["Sure, here's a playlist for you!", "I enjoy all kinds of music.", "How about trying some jazz today?"],
+      "context_set": ""
+    },
+    {
+      "tag": "movies",
+      "patterns": ["Recommend a movie", "What's a good movie to watch?", "Any new releases?", "Tell me about popular movies"],
+      "responses": ["I recommend watching 'Inception'", "Check out the latest Marvel movie!", "Have you seen 'The Shawshank Redemption'? It's a classic."],
+      "context_set": ""
+    },
+    {
+      "tag": "travel",
+      "patterns": ["Best travel destinations", "Recommend a vacation spot", "Travel tips", "Favorite travel memories"],
+      "responses": ["How about exploring Bali?", "Pack light and enjoy your journey!", "I love reminiscing about my last trip to Paris."],
+      "context_set": ""
+    },
+    {
+      "tag": "food",
+      "patterns": ["Favorite cuisine", "Recommend a restaurant", "Cooking tips", "What's for dinner?"],
+      "responses": ["I'm a fan of Italian cuisine!", "Try the new sushi place downtown.", "How about trying a new recipe tonight?"],
+      "context_set": ""
+    },
+    {
+      "tag": "sports",
+      "patterns": ["Favorite sport", "Sports news", "Tell me about the latest game", "Sports recommendations"],
+      "responses": ["I enjoy watching soccer matches.", "Stay tuned for the upcoming Olympics!", "How about trying out tennis this weekend?"],
+      "context_set": ""
+    },
+    {
+      "tag": "age",
+      "patterns": ["How old are you", "What is your age", "Tell me your age", "which year were you born"],
+      "responses": ["I am 30 already. Believe it?", "I was born in 1993", "I won't tell you"],
+      "context_set": ""
+    },
+    {
+      "tag": "book",
+      "patterns": ["Recommend a book", "What's your favorite book?", "Book suggestions", "Tell me about popular novels"],
+      "responses": ["I recommend 'The Great Gatsby'", "My favorite book is '1984' by George Orwell.", "Explore the world of Harry Potter!"],
+      "context_set": ""
+    },
+    {
+      "tag": "fitness",
+      "patterns": ["Workout recommendations", "Favorite exercise", "Fitness tips", "Healthy lifestyle"],
+      "responses": ["Try a combination of cardio and strength training.", "I enjoy yoga for relaxation.", "Stay hydrated and prioritize your well-being!"],
+      "context_set": ""
+    },
+    {
+      "tag": "history",
+      "patterns": ["Historical events", "Favorite historical period", "Tell me about ancient civilizations", "History recommendations"],
+      "responses": ["Explore the Renaissance era.", "The Industrial Revolution had a significant impact on society.", "Learn about the ancient Egyptians and their pyramids."],
+      "context_set": ""
+    },
+    {
+      "tag": "science",
+      "patterns": ["Latest scientific discoveries", "Favorite branch of science", "Tell me about space exploration", "Science recommendations"],
+      "responses": ["Stay updated on the latest breakthroughs in physics.", "I find astronomy fascinating!", "Explore the wonders of biology and genetics."],
+      "context_set": ""
+    },
+    {
+      "tag": "technology",
+      "patterns": ["Latest tech trends", "Gadgets you recommend", "Tell me about artificial intelligence", "Tech news"],
+      "responses": ["Check out the new iPhone release!", "Artificial intelligence is revolutionizing industries.", "Stay updated with the latest tech news!"],
+      "context_set": ""
+    },
+    {
+      "tag": "education",
+      "patterns": ["Learning tips", "Education resources", "Favorite subjects", "Study recommendations"],
+      "responses": ["Create a study schedule for better productivity.", "Explore online courses for continuous learning.", "I enjoy subjects related to computer science."],
+      "context_set": ""
+    },
+    {
+      "tag": "health",
+      "patterns": ["Healthy living tips", "Wellness recommendations", "Favorite health activities", "Mental health awareness"],
+      "responses": ["Prioritize a balanced diet and regular exercise.", "Mindfulness and meditation contribute to overall well-being.", "Take breaks to maintain good mental health."],
+      "context_set": ""
+    },
+    {
+      "tag": "technology",
+      "patterns": ["Latest tech trends", "Gadgets you recommend", "Tell me about artificial intelligence", "Tech news"],
+      "responses": ["Check out the new iPhone release!", "Artificial intelligence is revolutionizing industries.", "Stay updated with the latest tech news!"],
+      "context_set": ""
+    },
+    {
+      "tag": "art",
+      "patterns": ["Favorite art forms", "Art recommendations", "Tell me about famous artists", "Artistic inspiration"],
+      "responses": ["Explore the world of impressionist art.", "Check out the works of Vincent van Gogh.", "Find inspiration in abstract art."],
+      "context_set": ""
+    },
+    {
+      "tag": "hobbies",
+      "patterns": ["Favorite hobbies", "Hobby suggestions", "Tell me about your hobbies", "Hobby-related tips"],
+      "responses": ["I enjoy painting as a hobby.", "Consider trying out photography.", "Find a hobby that brings you joy and relaxation."],
+      "context_set": ""
+    },
+    {
+      "tag": "technology",
+      "patterns": ["Latest tech trends", "Gadgets you recommend", "Tell me about artificial intelligence", "Tech news"],
+      "responses": ["Check out the new iPhone release!", "Artificial intelligence is revolutionizing industries.", "Stay updated with the latest tech news!"],
+      "context_set": ""
+    },
+    {
+      "tag": "mindfulness",
+      "patterns": ["Mindfulness practices", "Meditation tips", "Stress reduction techniques", "Mindful living"],
+      "responses": ["Practice deep breathing for relaxation.", "Explore guided meditation sessions.", "Mindfulness contributes to a balanced and peaceful life."],
+      "context_set": ""
+    },
+    {
+      "tag": "fashion",
+      "patterns": ["Fashion trends", "Style recommendations", "Favorite clothing brands", "Fashion tips"],
+      "responses": ["Stay updated on current fashion trends.", "Experiment with your style and express yourself.", "Consider sustainable fashion choices."],
+      "context_set": ""
+    },
+    {
+      "tag": "technology",
+      "patterns": ["Latest tech trends", "Gadgets you recommend", "Tell me about artificial intelligence", "Tech news"],
+      "responses": ["Check out the new iPhone release!", "Artificial intelligence is revolutionizing industries.", "Stay updated with the latest tech news!"],
+      "context_set": ""
+    },
+    {
+      "tag": "motivation",
+      "patterns": ["Motivational quotes", "Stay motivated tips", "Overcoming challenges", "Goal-setting advice"],
+      "responses": ["Believe in yourself and your abilities.", "Set SMART goals for better success.", "Face challenges with a positive mindset."],
+      "context_set": ""
+    }
+]
+}
